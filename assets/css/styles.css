@@ -296,13 +296,14 @@ img {
     color: var(--first-color);
 }
 
-.home__social:hover {
+.home__social a:hover {
     color: var(--first-color-alt);
 }
 
 .home__blob {
-    width: 200px;
+    width: 300px;
     fill: var(--first-color);
+    
 }
 
 .home__blob-img {
@@ -599,12 +600,13 @@ img {
 .qualification__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    /* margin-bottom: var(--mb-1); */
 }
 
 .qualification__calendar {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
+    margin-top: 14px;
 }
 
 .qualification__rounder {
@@ -633,6 +635,26 @@ img {
 
 .qualification__button.qualification__active {
     color: var(--first-color);
+}
+
+.qualification__data .btn-link{
+    font-size: 12px;
+    color: var(--first-color);
+}
+
+.qualification__data .btn-link:hover{
+    color:var(--first-color-alt) ;
+}
+.btn-link-left:hover .btn-link-i{
+    transform:translateX(15px);
+    margin: 0 10px 0 0;
+    transition: .4s;
+}
+
+.btn-link-right:hover .btn-link-i{
+    transform:translateX(15px);
+    margin: 0 0 0 10px;
+    transition: .4s;
 }
 
 /*==================== SERVICES ====================*/
@@ -772,7 +794,7 @@ img {
     color: var(--first-color);
 }
 
-.swiper-button-perv {
+.swiper-button-prev {
     left: -.5rem;
 }
 
@@ -788,7 +810,7 @@ img {
     background-color: var(--first-color);
 }
 
-.swiper-button-perv,
+.swiper-button-prev,
 .swiper-button-next,
 .swiper-pagination-bullet {
     outline: none;
@@ -1171,7 +1193,7 @@ img {
     }
 
     .home__blob {
-        width: 270px;
+        width: 300px;
     }
 
     .home__scroll {
@@ -1291,7 +1313,7 @@ img {
     }
 
     .home__blob {
-        width: 320px;
+        width: 400px;
     }
 
     .home__social {
@@ -1310,7 +1332,7 @@ img {
         font-size: 3.5rem;
     }
 
-    .swiper-button-perv {
+    .swiper-button-prev {
         left: -3.5rem;
     }
 
